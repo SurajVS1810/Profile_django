@@ -3,6 +3,6 @@ from .models import home
 # Register your models here.
 
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ('name','education','skills','phone','github','email','linkedin','achievment')
+    list_display = ('name','education','skills','phone','github','email','linkedin')
 
 admin.site.register(home)
